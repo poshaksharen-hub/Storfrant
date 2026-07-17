@@ -1,0 +1,961 @@
+# <!=Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Storefront 3.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/woothemes/storefront/issues\n"
+"POT-Creation-Date: 2020-12-15 17:33:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-01-02 17:00+0330\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Language: fa_IR\n"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اووپس! صفحه پیدا نشد."
+
+#: 404.php:22
+msgid ""
+"Nothing was found at this location. Try searching, or check out the links below."
+msgstr "چیزی در اینجا پیدا نشد. لطفا جستجو کنید یا پیوندهای زیر را بررسی نمایید."
+
+#: 404.php:25 inc/woocommerce/storefront-woocommerce-template-functions.php:716
+msgid "Search"
+msgstr "جستجو"
+
+#: 404.php:39
+msgid "Promoted Products"
+msgstr "محصولات پیشنهاد شده"
+
+#: 404.php:45 404.php:47
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:297
+msgid "Product Categories"
+msgstr "دسته‌های محصولات"
+
+#: 404.php:60 404.php:62
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:464
+msgid "Popular Products"
+msgstr "محصولات پرطرفدار"
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr "دیدگاه‌های نوشته"
+
+#: comments.php:40
+msgid "Comment Navigation Above"
+msgstr "بالای ناوبری دیدگاه‌ها"
+
+#: comments.php:41 comments.php:61
+msgid "Comment navigation"
+msgstr "ناوبری دیدگاه‌ها"
+
+#: comments.php:42 comments.php:62
+msgid "&larr; Older Comments"
+msgstr "&rarr; دیدگاه‌های قدیمی‌تر"
+
+#: comments.php:43 comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr "دیدگاه‌های تازه‌تر &larr;"
+
+#: comments.php:60
+msgid "Comment Navigation Below"
+msgstr "زیر ناوبری دیدگاه‌ها"
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها غیرفعال هستند."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#. translators: 1: URL
+#: content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"برای انتشار اولین نوشته‌ی خود آماده‌اید؟ <a href=\"%1$s\">از اینجا شروع کنید</a>."
+
+#: content-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different "
+"keywords."
+msgstr ""
+"چیزی مطابق با جستجوی شما پیدا نشد. لطفا از کلمات کلیدی دیگری برای جستجو استفاده "
+"کنید."
+
+#: content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can "
+"help."
+msgstr "چیزی که می‌خواستید پیدا نشد. از جستجو کمک بگیرید."
+
+#: inc/admin/class-storefront-admin.php:74
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: inc/admin/class-storefront-admin.php:75
+msgid "Documentation"
+msgstr "مستندات"
+
+#: inc/admin/class-storefront-admin.php:76
+msgid "Development blog"
+msgstr "بلاگ توسعه"
+
+#. translators: 1: HTML, 2: HTML
+#: inc/admin/class-storefront-admin.php:104
+msgid "Setup complete %1$sYour Storefront adventure begins now 🚀%2$s "
+msgstr "کار نصب انجام گرفت %1$sاکنون ماجراجویی با استورفرانت آغاز می‌شود 🚀%2$s "
+
+#: inc/admin/class-storefront-admin.php:105
+msgid ""
+"One more thing... You might be interested in the following Storefront extensions "
+"and designs."
+msgstr ""
+"یک چیز دیگر ... شاید از طرح‌ها و گسترش‌های استورفرانت که در ادامه می‌آیند خوشتان "
+"بیاید."
+
+#: inc/admin/class-storefront-admin.php:107
+msgid ""
+"Hello! You might be interested in the following Storefront extensions and designs."
+msgstr "سلام! شاید از طرح‌ها و گسترش‌های استورفرانت که در ادامه می‌آیند خوشتان بیاید."
+
+#: inc/admin/class-storefront-admin.php:118
+msgid "Storefront Extensions Bundle"
+msgstr "بسته‌ی گسترش‌های استورفرانت"
+
+#: inc/admin/class-storefront-admin.php:124
+msgid "All the tools you'll need to define your style and customize Storefront."
+msgstr "همه‌ی ابزارهای لازم برای تعریف شیوه‌ها و سفارشی‌سازی استورفرانت."
+
+#: inc/admin/class-storefront-admin.php:128
+msgid ""
+"Make it yours without touching code with the Storefront Extensions bundle. Express "
+"yourself, optimize conversions, delight customers."
+msgstr ""
+"با بسته‌ی گسترش‌های استورفرانت، بدون کدنویسی، آن را مال خودتان کنید. خودی نشان دهید؛ "
+"مبادلات را بهینه کنید و رضایت مشتری را جلب نمایید."
+
+#: inc/admin/class-storefront-admin.php:133
+msgid "Read more and purchase"
+msgstr "مطالعه‌ی بیشتر و سفارش"
+
+#: inc/admin/class-storefront-admin.php:137
+msgid "Alternate designs"
+msgstr "طرح‌های جایگزین"
+
+#: inc/admin/class-storefront-admin.php:141
+msgid ""
+"Quickly and easily transform your shops appearance with Storefront child themes."
+msgstr "با پوسته‌های فرزند استورفرانت، نمای فروشگاه خود را سریع و آسان دگرگون کنید."
+
+#: inc/admin/class-storefront-admin.php:145
+msgid "Each has been designed to serve a different industry - from fashion to food."
+msgstr "هر کدام برای کاری طراحی شده‌اند … از پوشاک تا خوراک."
+
+#: inc/admin/class-storefront-admin.php:149
+msgid "Of course they are all fully compatible with each Storefront extension."
+msgstr "البته همه‌ی آنها با هر یک از گسترش‌های استورفرانت کاملا سازگارند."
+
+#: inc/admin/class-storefront-admin.php:153
+msgid "Check 'em out"
+msgstr "بریم یه نگاهی بندازیم!"
+
+#. translators: %s: Automattic branding
+#: inc/admin/class-storefront-admin.php:162
+msgid "An %s project"
+msgstr "یک پروژه‌ی %s"
+
+#: inc/admin/class-storefront-admin.php:191
+#: inc/admin/class-storefront-plugin-install.php:62
+msgid "Activated"
+msgstr "فعال"
+
+#: inc/admin/class-storefront-admin.php:200
+#: inc/admin/class-storefront-plugin-install.php:75
+msgid "Activate"
+msgstr "فعال‌سازی"
+
+#: inc/admin/class-storefront-admin.php:217
+#: inc/admin/class-storefront-plugin-install.php:96
+msgid "Install now"
+msgstr "همین حالا نصب کنید"
+
+#: inc/admin/class-storefront-admin.php:224
+msgid "Learn more"
+msgstr "بیشتر بیاموزید"
+
+#. translators: conjunction of two alternative options user can choose (in
+#. missing plugin admin notice). Example: "Activate WooCommerce or learn more"
+#: inc/admin/class-storefront-plugin-install.php:115
+msgid "or"
+msgstr "یا"
+
+#: inc/admin/class-storefront-plugin-install.php:116
+msgid "learn more"
+msgstr "بیشتر بدانید"
+
+#: inc/class-storefront.php:95 inc/nux/class-storefront-nux-starter-content.php:162
+msgid "Primary Menu"
+msgstr "فهرست اصلی"
+
+#: inc/class-storefront.php:96 inc/nux/class-storefront-nux-starter-content.php:182
+msgid "Secondary Menu"
+msgstr "فهرست فرعی"
+
+#: inc/class-storefront.php:97 inc/nux/class-storefront-nux-starter-content.php:192
+msgid "Handheld Menu"
+msgstr "فهرست فشرده"
+
+#: inc/class-storefront.php:202
+msgid "Small"
+msgstr "کوچک"
+
+#: inc/class-storefront.php:207
+msgid "Normal"
+msgstr "معمولی"
+
+#: inc/class-storefront.php:212
+msgid "Medium"
+msgstr "متوسط"
+
+#: inc/class-storefront.php:217
+msgid "Large"
+msgstr "بزرگ"
+
+#: inc/class-storefront.php:222
+msgid "Huge"
+msgstr "خیلی بزرگ"
+
+#: inc/class-storefront.php:247
+msgid "Sidebar"
+msgstr "نوار کناری"
+
+#: inc/class-storefront.php:253
+msgid "Below Header"
+msgstr "پایین هدر"
+
+#: inc/class-storefront.php:255
+msgid ""
+"Widgets added to this region will appear beneath the header and above the main "
+"content."
+msgstr "ابزارک‌های اضافه شده به این ناحیه، زیر هدر و بالای محتوای اصلی ظاهر می‌شوند."
+
+#. translators: 1: column number
+#: inc/class-storefront.php:268
+msgid "Footer Column %1$d"
+msgstr "ستون %1$d فوتر"
+
+#. translators: 1: column number
+#: inc/class-storefront.php:271
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr "ابزارک‌های اضافه شده به اینجا در ستون %1$d فوتر ظاهر می‌شوند."
+
+#. translators: 1: row number, 2: column number
+#: inc/class-storefront.php:274
+msgid "Footer Row %1$d - Column %2$d"
+msgstr "ردیف %1$d - ستون %2$d فوتر"
+
+#. translators: 1: column number, 2: row number
+#: inc/class-storefront.php:277
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr "ابزارک‌های اضافه شده به اینجا در ستون %1$d از ردیف %2$d فوتر ظاهر می‌شوند."
+
+#: inc/class-storefront.php:350
+msgid "Expand child menu"
+msgstr "باز کردن زیر فهرست"
+
+#: inc/class-storefront.php:351
+msgid "Collapse child menu"
+msgstr "بستن زیر فهرست"
+
+#: inc/class-storefront.php:487
+msgid "Post Navigation"
+msgstr "ناوبری نوشته"
+
+#. translators: 1: Storefront, 2: start <a> tag, 3: Storefront, 4: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:29
+msgid ""
+"There's a range of %1$s extensions available to put additional power in your "
+"hands. Check out the %2$s%3$s%4$s page in your dashboard for more information."
+msgstr ""
+"با استفاده از گسترش‌های %1$s امکانات بیشتری در اختیار خواهید داشت. برای اطلاعات "
+"بیشتر به برگه‌ی %2$s%3$s%4$s در پیشخوان بروید."
+
+#. translators: %s: Storefront
+#: inc/customizer/class-storefront-customizer-control-more.php:36
+msgid "Enjoying %s?"
+msgstr "از %s لذت می‌برید؟"
+
+#. translators: 1: start <a> tag, 2: end <a> tag
+#: inc/customizer/class-storefront-customizer-control-more.php:43
+msgid ""
+"Why not leave us a review on %1$sWordPress.org%2$s?  We'd really appreciate it!"
+msgstr "بسیار خوشحال می‌شویم اگر ما را در %1$sوردپرس%2$s ارزیابی کنید!"
+
+#: inc/customizer/class-storefront-customizer.php:123
+msgid "Background"
+msgstr "زمینه"
+
+#: inc/customizer/class-storefront-customizer.php:127
+msgid "Header"
+msgstr "هدر"
+
+#: inc/customizer/class-storefront-customizer.php:176
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: inc/customizer/class-storefront-customizer.php:197
+#: inc/customizer/class-storefront-customizer.php:438
+msgid "Heading color"
+msgstr "رنگ هدر"
+
+#: inc/customizer/class-storefront-customizer.php:221
+#: inc/customizer/class-storefront-customizer.php:354
+#: inc/customizer/class-storefront-customizer.php:462
+#: inc/customizer/class-storefront-customizer.php:546
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: inc/customizer/class-storefront-customizer.php:245
+msgid "Link / accent color"
+msgstr "رنگ  تاکید/ پیوند"
+
+#: inc/customizer/class-storefront-customizer.php:269
+msgid "Hero heading color"
+msgstr "رنگ عنوان سرآغاز"
+
+#: inc/customizer/class-storefront-customizer.php:293
+msgid "Hero text color"
+msgstr "رنگ متن سرآغاز"
+
+#: inc/customizer/class-storefront-customizer.php:308
+msgid "Header background image"
+msgstr "تصویر زمینه‌ی هدر"
+
+#: inc/customizer/class-storefront-customizer.php:330
+#: inc/customizer/class-storefront-customizer.php:414
+#: inc/customizer/class-storefront-customizer.php:522
+msgid "Background color"
+msgstr "رنگ زمینه"
+
+#: inc/customizer/class-storefront-customizer.php:378
+#: inc/customizer/class-storefront-customizer.php:486
+msgid "Link color"
+msgstr "رنگ پیوند"
+
+#: inc/customizer/class-storefront-customizer.php:392
+msgid "Footer"
+msgstr "فوتر"
+
+#: inc/customizer/class-storefront-customizer.php:394
+msgid "Customize the look & feel of your website footer."
+msgstr "شخصی‌سازی ظاهر فوتر وبسایت شما."
+
+#: inc/customizer/class-storefront-customizer.php:500
+msgid "Buttons"
+msgstr "دکمه‌ها"
+
+#: inc/customizer/class-storefront-customizer.php:502
+msgid "Customize the look & feel of your website buttons."
+msgstr "سفارشی‌سازی ظاهر دکمه‌های وبسایت شما."
+
+#: inc/customizer/class-storefront-customizer.php:570
+msgid "Alternate button background color"
+msgstr "رنگ زمینه‌ی دکمه‌ی جایگزین"
+
+#: inc/customizer/class-storefront-customizer.php:594
+msgid "Alternate button text color"
+msgstr "رنگ نوشته‌ی دکمه‌ی جایگزین"
+
+#: inc/customizer/class-storefront-customizer.php:608
+msgid "Layout"
+msgstr "چیدمان"
+
+#: inc/customizer/class-storefront-customizer.php:628
+msgid "General Layout"
+msgstr "چیدمان کلی"
+
+#: inc/customizer/class-storefront-customizer.php:645
+msgid "More"
+msgstr "بیشتر"
+
+#: inc/customizer/class-storefront-customizer.php:663
+msgid "Looking for more options?"
+msgstr "گزینه‌های بیشتری می‌خواهید؟"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:33
+msgid "Design your store with Storefront 🎨"
+msgstr "فروشگاه‌تان را با استور فرانت طراحی کنید! 🎨"
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:34
+msgid ""
+"Visit the Storefront settings page to start setup and customization of your shop."
+msgstr ""
+"برای شروع راه‌اندازی و شخصی‌سازی فروشگاه‌تان، صفحه‌ی تنظیمات استورفرانت را ببینید."
+
+#: inc/nux/class-storefront-nux-admin-inbox-messages-customize.php:41
+#: inc/nux/class-storefront-nux-admin.php:160
+#: inc/nux/class-storefront-nux-guided-tour.php:112
+msgid "Let's go!"
+msgstr "بزن بریم!"
+
+#: inc/nux/class-storefront-nux-admin.php:108
+msgid "Thanks for installing Storefront, you rock! 🤘"
+msgstr "سپاس برای نصب استورفرانت! 🤘"
+
+#: inc/nux/class-storefront-nux-admin.php:109
+msgid "To enable eCommerce features you need to install the WooCommerce plugin."
+msgstr "برای راه اندازی تجارت الکترونیک، لازم است افزونه‌ی ووکامرس نصب شود."
+
+#: inc/nux/class-storefront-nux-admin.php:110
+msgid "WooCommerce activated"
+msgstr "ووکامرس فعال شد"
+
+#: inc/nux/class-storefront-nux-admin.php:110
+msgid "Activate WooCommerce"
+msgstr "ووکامرس را فعال کنید"
+
+#: inc/nux/class-storefront-nux-admin.php:110
+msgid "Install WooCommerce"
+msgstr "نصب ووکامرس"
+
+#: inc/nux/class-storefront-nux-admin.php:114
+msgid "Design your store 🎨"
+msgstr "طراحی فروشگاه 🎨"
+
+#: inc/nux/class-storefront-nux-admin.php:118
+msgid ""
+"Before you add your first product let's design your store. We'll add some example "
+"products for you. When you're ready let's get started by adding your logo."
+msgstr ""
+"پیش از آنکه شما اولین محصول خود را اضافه کنید بگذارید فروشگاه شما را طراحی کنیم. "
+"ما چند نمونه محصول را برای شما اضافه خواهیم کرد. هر وقت آماده بودید اجازه دهید کار "
+"با افزودن لوگوی شما آغاز شود."
+
+#: inc/nux/class-storefront-nux-admin.php:120
+msgid ""
+"You've set up WooCommerce, now it's time to give it some style! Let's get started "
+"by entering the Customizer and adding your logo."
+msgstr ""
+"شما ووکامرس را نصب کرده‌اید، حالا نوبت زیبا کردن و شخصی‌سازی سایت‌تان است! بیایید با "
+"سفارشی‌سازی و اضافه کردن لوگو شروع کنیم."
+
+#: inc/nux/class-storefront-nux-admin.php:142
+msgid "Apply the Storefront homepage template"
+msgstr "اعمال قالب برگه‌ی خانه‌ی استورفرانت"
+
+#: inc/nux/class-storefront-nux-admin.php:144
+msgid "Create a homepage using Storefront's homepage template"
+msgstr "ایجاد برگه‌ی خانه با استفاده از قالب برگه‌ی خانه‌ی استورفرانت"
+
+#: inc/nux/class-storefront-nux-admin.php:154
+msgid "Add example products"
+msgstr "افزودن نمونه محصولات"
+
+#: inc/nux/class-storefront-nux-admin.php:161
+msgid "Skip"
+msgstr "بیخیال!"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:83
+msgid "Next"
+msgstr "بعدی"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:89
+msgid "No thanks, skip the tour"
+msgstr "از این ماجرا بگذر"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:91
+msgid "Skip this step"
+msgstr "از این مرحله بگذر"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:109
+msgid "Welcome to the Customizer"
+msgstr "به سفارشی‌ساز خوش آمدید"
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:111
+msgid ""
+"Here you can control the overall look and feel of your store.%sTo get started, "
+"let's add your logo"
+msgstr ""
+"در اینجا می‌توانید ظاهر کلی فروشگاه را مدیریت کنید. %sبرای شروع لوگوی فروشگاه را "
+"بارگذاری کنید"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:118
+msgid "Add your logo"
+msgstr "افزودن لوگوی شما"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:119
+msgid ""
+"Open the Site Identity Panel, then click the 'Select Logo' button to upload your "
+"logo."
+msgstr "برای بارگذاری لوگو، در قسمت مشخصات وبگاه، روی دکمه‌ی «انتخاب لوگو» کلیک کنید."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:125
+msgid "Customize your navigation menus"
+msgstr "سفارشی‌سازی فهرست‌های ناوبری"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:126
+msgid "Organize your menus by adding Pages, Categories, Tags, and Custom Links."
+msgstr ""
+"فهرست‌های خود را با افزودن صفحات، دسته‌ها، برچسب‌ها و پیوندهای سفارشی ساماندهی کنید."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:131
+msgid "Choose your accent color"
+msgstr "انتخاب رنگ تاکید"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:132
+msgid ""
+"In the typography panel you can specify an accent color which will be applied to "
+"things like links and star ratings. We recommend using your brand color for this "
+"setting."
+msgstr ""
+"در بخش تایپوگرافی می‌توانید رنگی را به عنوان رنگ تاکید انتخاب کنید؛ این رنگ برای "
+"عناصری مثل پیوندها و امتیازات ستاره‌ای اعمال خواهد شد. بهتر است رنگ‌های مربوط به نام "
+"تجاری خودتان را برای این تنظیمات به کار برید."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:137
+msgid "Color your buttons"
+msgstr "رنگ دکمه‌ها"
+
+#: inc/nux/class-storefront-nux-guided-tour.php:138
+msgid ""
+"Choose colors for your button backgrounds and text. Once again, brand colors are "
+"good choices here."
+msgstr ""
+"انتخاب رنگ‌های متن و زمینه‌ی دکمه‌ها؛ بار دیگر، رنگ‌های نام تجاری گزینه‌های مناسبی برای "
+"اینجا هستند."
+
+#. translators: 1: open <strong> tag, 2: close <strong> tag, 3: 'End Of Line'
+#. symbol
+#: inc/nux/class-storefront-nux-guided-tour.php:145
+msgid ""
+"All set! Remember to %1$ssave & publish%2$s your changes when you're done.%3$sYou "
+"can return to your dashboard by clicking the X in the top left corner."
+msgstr ""
+"آماده! به یاد داشته باشید که پس از پایان کارها، تغییرات را %1$sذخیره و انتشار%2$s "
+"دهید.%3$sبا کلیک روی X در گوشه‌ی بالا به پیشخوان برمی‌گردید."
+
+#: inc/nux/class-storefront-nux-guided-tour.php:147
+msgid "Done"
+msgstr "انجام شد"
+
+#: inc/nux/class-storefront-nux-starter-content.php:71
+msgid "About"
+msgstr "درباره"
+
+#: inc/nux/class-storefront-nux-starter-content.php:72
+msgid ""
+"You might be an artist who would like to introduce yourself and your work here or "
+"maybe you&rsquo;re a business with a mission to describe."
+msgstr ""
+"شاید هنرمندی هستید که می‌خواهید خودتان و کارهایتان را در اینجا معرفی کنید یا شاید "
+"صاحب یک کسب و کار که می‌خواهید هدفتان را توصیف کنید."
+
+#: inc/nux/class-storefront-nux-starter-content.php:76
+msgid "Contact"
+msgstr "تماس"
+
+#: inc/nux/class-storefront-nux-starter-content.php:77
+msgid ""
+"This is a page with some basic contact information, such as an address and phone "
+"number. You might also try a plugin to add a contact form."
+msgstr ""
+"این برگه شامل برخی اطلاعات پایه مانند نشانی و شماره تلفن است. همچنین با استفاده از "
+"یک افزونه‌ی مناسب می‌توانید فرم تماس ایجاد کنید."
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr "خانه"
+
+#: inc/nux/class-storefront-nux-starter-content.php:213
+#: inc/nux/class-storefront-nux-starter-content.php:1095
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#. translators: %s: 'End Of Line' symbol
+#: inc/nux/class-storefront-nux-starter-content.php:215
+msgid ""
+"This is your homepage which is what most visitors will see when they first visit "
+"your shop.%sYou can change this text by editing the \"Welcome\" page via the "
+"\"Pages\" menu in your dashboard."
+msgstr ""
+"این برگه، صفحه‌ی اصلی سایت شماست؛ بیشتر کسانی که برای اولین بار به سایت شما سر "
+"می‌زنند ابتدا این برگه را می‌بینند. %sبرای تغییر این متن، در پیشخوان در فهرست "
+"برگه‌ها، برگه‌ی «خوش آمدید» را ویرایش کنید."
+
+#: inc/nux/class-storefront-nux-starter-content.php:725
+msgid "Accessories"
+msgstr "لوازم جانبی"
+
+#: inc/nux/class-storefront-nux-starter-content.php:726
+#: inc/nux/class-storefront-nux-starter-content.php:729
+#: inc/nux/class-storefront-nux-starter-content.php:732
+msgid "A short category description"
+msgstr "معرفی کوتاه دسته"
+
+#: inc/nux/class-storefront-nux-starter-content.php:728
+msgid "Hoodies"
+msgstr "پیراهن‌ها"
+
+#: inc/nux/class-storefront-nux-starter-content.php:731
+msgid "Tshirts"
+msgstr "تی‌شرت‌ها"
+
+#: inc/nux/class-storefront-nux-starter-content.php:737
+msgid "Beanie"
+msgstr "کلاه بافتنی"
+
+#: inc/nux/class-storefront-nux-starter-content.php:759
+msgid "Belt"
+msgstr "کمربند"
+
+#: inc/nux/class-storefront-nux-starter-content.php:781
+msgid "Cap"
+msgstr "کلاه لبه‌دار"
+
+#: inc/nux/class-storefront-nux-starter-content.php:803
+msgid "Sunglasses"
+msgstr "عینک‌های آفتابی"
+
+#: inc/nux/class-storefront-nux-starter-content.php:824
+msgid "Hoodie with Logo"
+msgstr "پیراهن لوگودار"
+
+#: inc/nux/class-storefront-nux-starter-content.php:845
+msgid "Hoodie with Pocket"
+msgstr "پیراهن جیب‌دار"
+
+#: inc/nux/class-storefront-nux-starter-content.php:867
+msgid "Hoodie with Zipper"
+msgstr "پیراهن زیپ‌دار"
+
+#: inc/nux/class-storefront-nux-starter-content.php:888
+msgid "Hoodie"
+msgstr "پیراهن"
+
+#: inc/nux/class-storefront-nux-starter-content.php:910
+msgid "Long Sleeve Tee"
+msgstr "تی‌شرت آستین بلند"
+
+#: inc/nux/class-storefront-nux-starter-content.php:931
+msgid "Polo"
+msgstr "پولو"
+
+#: inc/nux/class-storefront-nux-starter-content.php:952
+msgid "Tshirt"
+msgstr "تی‌شرت"
+
+#: inc/nux/class-storefront-nux-starter-content.php:973
+msgid "Vneck Tshirt"
+msgstr "تی‌شرت یقه هفت"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1042
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:276
+msgid "Shop by Category"
+msgstr "خرید بر اساس دسته"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1050
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:331
+msgid "New In"
+msgstr "تازه در"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1058
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:443
+msgid "Fan Favorites"
+msgstr "مورد علاقه‌ی هواداران"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1064
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:499
+msgid "On Sale"
+msgstr "حراج"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1070
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:555
+msgid "Best Sellers"
+msgstr "بهترین فروشندگان"
+
+#: inc/nux/class-storefront-nux-starter-content.php:1099
+msgid ""
+"This is your homepage which is what most visitors will see when they first visit "
+"your shop."
+msgstr ""
+"این برگه، صفحه‌ی اصلی سایت شماست؛ بیشتر کسانی که برای اولین بار به سایت شما سر "
+"می‌زنند ابتدا این برگه را می‌بینند."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1103
+msgid ""
+"You can change this text by editing the \"Welcome\" page via the \"Pages\" menu in "
+"your dashboard."
+msgstr ""
+"برای تغییر این متن، در پیشخوان در فهرست برگه‌ها، برگه‌ی «خوش آمدید» را ویرایش کنید."
+
+#: inc/nux/class-storefront-nux-starter-content.php:1129
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:387
+msgid "We Recommend"
+msgstr "پیشنهاد ما"
+
+#: inc/storefront-template-functions.php:48
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار بررسی است."
+
+#: inc/storefront-template-functions.php:75
+msgid "Edit"
+msgstr "ویرایش"
+
+#: inc/storefront-template-functions.php:142
+msgid "WooCommerce - The Best eCommerce Platform for WordPress"
+msgstr "ووکامرس - بهترین زیرساخت تجارت الکترونیک برای وردپرس"
+
+#: inc/storefront-template-functions.php:142
+msgid "Built with Storefront &amp; WooCommerce"
+msgstr "ساخته شده با استورفرانت و ووکامرس"
+
+#: inc/storefront-template-functions.php:144
+msgid "Storefront -  The perfect platform for your next WooCommerce project."
+msgstr "استورفرانت - بستر فوق العاده برای پروژه ووکامرس بعدی شما."
+
+#: inc/storefront-template-functions.php:144
+msgid "Built with Storefront"
+msgstr "ساخته شده با استورفرانت"
+
+#: inc/storefront-template-functions.php:241
+msgid "Primary Navigation"
+msgstr "ناوبری اصلی"
+
+#: inc/storefront-template-functions.php:242
+msgid "Menu"
+msgstr "فهرست"
+
+#: inc/storefront-template-functions.php:273
+msgid "Secondary Navigation"
+msgstr "ناوبری فرعی"
+
+#: inc/storefront-template-functions.php:297
+msgid "Skip to navigation"
+msgstr "پرش به ناوبری"
+
+#: inc/storefront-template-functions.php:298
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: inc/storefront-template-functions.php:310
+msgid "Edit this section"
+msgstr "ویرایش این بخش"
+
+#: inc/storefront-template-functions.php:356
+#: inc/storefront-template-functions.php:427
+msgid "Pages:"
+msgstr "برگه‌ها:"
+
+#. translators: %s: post title
+#: inc/storefront-template-functions.php:418
+msgid "Continue reading %s"
+msgstr "ادامه‌ی «%s»"
+
+#. translators: %s: post date
+#: inc/storefront-template-functions.php:468
+msgid "Posted on %s"
+msgstr "نوشته شده در %s"
+
+#: inc/storefront-template-functions.php:474
+msgid "by"
+msgstr "توسط"
+
+#: inc/storefront-template-functions.php:483
+msgid "Leave a comment"
+msgstr "دیدگاه‌تان را بنویسید"
+
+#: inc/storefront-template-functions.php:483
+msgid "1 Comment"
+msgstr "یک دیدگاه"
+
+#: inc/storefront-template-functions.php:483
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/storefront-template-functions.php:523
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/storefront-template-functions.php:546
+#: inc/storefront-template-functions.php:549
+msgid ", "
+msgstr "، "
+
+#: inc/storefront-template-functions.php:555
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "دسته:"
+msgstr[1] "دسته‌ها:"
+
+#: inc/storefront-template-functions.php:561
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "برچسب:"
+msgstr[1] "برچسب‌ها:"
+
+#: inc/storefront-template-functions.php:593
+msgid "Next post:"
+msgstr "نوشته‌ی بعدی:"
+
+#: inc/storefront-template-functions.php:594
+msgid "Previous post:"
+msgstr "نوشته‌ی قبلی:"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:60
+msgid "Product Page"
+msgstr "برگه‌ی محصول"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:87
+msgid "Sticky Add-To-Cart"
+msgstr "افزودن به سبد خرید چسبناک"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:88
+msgid ""
+"A small content bar at the top of the browser window which includes relevant "
+"product information and an add-to-cart button. It slides into view once the "
+"standard add-to-cart button has scrolled out of view."
+msgstr ""
+"یک نوار محتوای کوچک در بالای پنجره‌ی مرورگر قرار گرفته که شامل اطلاعات محصول مربوطه "
+"و دکمه‌ی افزودن به سبد خرید است. هنگامی که دکمه‌ی استاندارد افزودن به سبد خرید از "
+"منظر خارج شود، آن نوار نمایان خواهد شد."
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:98
+msgid "Product Pagination"
+msgstr "صفحه‌بندی محصول"
+
+#: inc/woocommerce/class-storefront-woocommerce-customizer.php:99
+msgid ""
+"Displays next and previous links on product pages. A product thumbnail is "
+"displayed with the title revealed on hover."
+msgstr ""
+"پیوندهای قبلی و بعدی را در برگه‌های محصولات نمایش می‌دهد. تصویرک محصول نشان داده "
+"می‌شود و عنوان در صورت لمس تصویرک ظاهر می‌شود."
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:91
+msgid "View your shopping cart"
+msgstr "مشاهده‌ی سبد خرید"
+
+#. translators: %d: number of items in cart
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:93
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d مورد"
+msgstr[1] "%d مورد"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:352
+msgid "Recent Products"
+msgstr "محصولات اخیر"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:409
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:614
+msgid "Featured Products"
+msgstr "محصولات ویژه"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:521
+msgid "On Sale Products"
+msgstr "محصولات حراج"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:576
+msgid "Best Selling Products"
+msgstr "محصولات پرفروش"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:627
+msgid "On Sale Now"
+msgstr "در حال حراج"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:640
+msgid "New In Store"
+msgstr "تازه در فروشگاه"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:732
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:746
+msgid "My Account"
+msgstr "حساب کاربری من"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:774
+msgid "More products"
+msgstr "محصولات بیشتر"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:838
+msgid "You're viewing:"
+msgstr "در حال مشاهده‌ی:"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:874
+msgid "Shop by Brand"
+msgstr "خرید بر اساس نام تجاری"
+
+#: inc/woocommerce/storefront-woocommerce-template-functions.php:891
+msgid "Product Brands"
+msgstr "نام‌های تجاری محصولات"
+
+#. translators: %s: search term
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "نتایج جستجوی «%s»"
+
+#. Theme Name of the plugin/theme
+msgid "Storefront"
+msgstr "استور فرانت"
+
+#. Theme URI of the plugin/theme
+msgid "https://woocommerce.com/storefront/"
+msgstr "https://woocommerce.com/storefront/"
+
+#. Description of the plugin/theme
+msgid ""
+"Storefront is the perfect theme for your next WooCommerce project. Designed and "
+"developed by WooCommerce Core developers, it features a bespoke integration with "
+"WooCommerce itself plus many of the most popular customer facing WooCommerce "
+"extensions. There are several layout & color options to personalise your shop, "
+"multiple widget regions, a responsive design and much more. Developers will love "
+"its lean and extensible codebase making it a joy to customize and extend. Looking "
+"for a WooCommerce theme? Look no further!"
+msgstr ""
+"استورفرانت یک پوسته مناسب برای پروژه ووکامرس بعدی شما می باشد که طراحی و توسعه آن "
+"توسط ووتمز انجام شده است، از ویژگی های آن، می توان به یکپارچه سازی عمیق با فروشگاه "
+"ساز ووکامرس، چند چیدمانی و سفارش سازی رنگ برای شخصی سازی فروشگاه، بخش های بیشمار "
+"برای ابزارک ها، طراحی پاسخگو و خیلی موارد بیشتر... اشاره کرد. برنامه نویسان عاشق "
+"کدهای ناب و توسعه پذیر هستند که بتوانند آنها را توسعه و سفارش سازی کنند. پس اگر در "
+"جستجوی یک پوسته ووکامرس هستید، دیگر جستجو نکنید!"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "اتوماتیک"
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr "تمام پهنا"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s دیدگاه درباره‌ی «%2$s»"
+msgstr[1] "%1$s دیدگاه درباره‌ی «%2$s»"
+
+#: inc/storefront-template-functions.php:579
+msgctxt "Next post"
+msgid "Next"
+msgstr "بعدی"
+
+#: inc/storefront-template-functions.php:580
+msgctxt "Previous post"
+msgid "Previous"
+msgstr "قبلی"

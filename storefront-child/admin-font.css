@@ -1,0 +1,52 @@
+/*!
+Theme Name: trusted Theme
+By: Shayan Farhang Pazhooh
+////////////////////////////
+shayan style
+/////////////////////////////////////////
+*/
+@font-face {
+  font-family: 'Shabnam';
+  font-style: normal;
+  font-weight: normal;
+  src: url('shfonts/Shabnam/Shabnam/Shabnam-FD.eot');
+  src: url('shfonts/Shabnam/Shabnam/Shabnam-FD.eot?#iefix') format('embedded-opentype'),
+    url('shfonts/Shabnam/Shabnam/Shabnam-FD.woff2') format('woff2'),
+    url('shfonts/Shabnam/Shabnam/Shabnam-FD.woff') format('woff'),
+    url('shfonts/Shabnam/Shabnam/Shabnam-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Shabnam';
+  font-style: normal;
+  font-weight: bold;
+  src: url('shfonts/Shabnam/Shabnam-Bold/Shabnam-Bold-FD.eot');
+  src: url('shfonts/Shabnam/Shabnam-Bold/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'),
+    url('shfonts/Shabnam/Shabnam-Bold/Shabnam-Bold-FD.woff2') format('woff2'),
+    url('shfonts/Shabnam/Shabnam-Bold/Shabnam-Bold-FD.woff') format('woff'),
+    url('shfonts/Shabnam/Shabnam-Bold/Shabnam-Bold-FD.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Shabnam';
+  font-style: normal;
+  font-weight: lighter;
+  src: url('shfonts/Shabnam/Shabnam-Light/Shabnam-Light-FD.eot');
+  src: url('shfonts/Shabnam/Shabnam-Light/Shabnam-Light-FD.eot?#iefix') format('embedded-opentype'),
+    url('shfonts/Shabnam/Shabnam-Light/Shabnam-Light-FD.woff2') format('woff2'),
+    url('shfonts/Shabnam/Shabnam-Light/Shabnam-Light-FD.woff') format('woff'),
+    url('shfonts/Shabnam/Shabnam-Light/Shabnam-Light-FD.ttf') format('truetype');
+}
+
+body, p, h1, h2, h3, h4, h5, h6, span, a, table, article, section, figure, figcaption, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, input, div, form, .rtl #wpadminbar *, .rtl h1,
+.rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+  font-family: Shabnam;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  font-family: Shabnam;
+}
+
+h3.accordion-section-title {
+  padding-right: 30px !important;
+}
