@@ -41,16 +41,51 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 <main class="custom-home-page-main">
 	<section class="hero-section" data-reveal>
+		<div class="hero-ambient ambient-one"></div>
+		<div class="hero-ambient ambient-two"></div>
 		<div class="hero-overlay"></div>
 		<img class="hero-image" src="<?php echo esc_url( $hero_image ); ?>" alt="جواهرات لوکس">
 		<div class="hero-content">
-			<p class="hero-kicker">مجموعهٔ جدید پاییزه</p>
-			<h1>زیباییِ ماندگار در هر جزئیات</h1>
-			<p>انگشترها، گوشواره‌ها و گردنبندهای دست‌ساز با ظاهری شفاف، مدرن و بی‌نقص برای لحظه‌های خاص شما.</p>
+			<div class="hero-badges">
+				<span>مجموعهٔ جدید</span>
+				<span>طراحی محدود</span>
+			</div>
+			<p class="hero-kicker">مجموعهٔ طلایی پاییزه</p>
+			<h1>ظرافتی که در هر نگاه، ارزش می‌سازد</h1>
+			<p>انگشترها، گوشواره‌ها و گردنبندهای دست‌ساز با جزئیات لوکس، رنگ‌های گرم و حس ماندگاری برای لحظه‌های خاص شما.</p>
 			<div class="hero-actions">
 				<a class="btn btn-primary" href="<?php echo esc_url( home_url( '/shop/' ) ); ?>">مشاهدهٔ فروشگاه</a>
 				<a class="btn btn-secondary" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">تجربهٔ مشاوره</a>
 			</div>
+			<div class="hero-metrics">
+				<div><strong>۳۵۰+</strong><span>طرح اختصاصی</span></div>
+				<div><strong>۲۴ ساعته</strong><span>پشتیبانی</span></div>
+				<div><strong>۹۸٪</strong><span>رضایت مشتری</span></div>
+			</div>
+		</div>
+		<aside class="hero-card">
+			<p class="hero-card__eyebrow">پیشنهاد ویژه</p>
+			<h3>کالکشن «شکوه شب»</h3>
+			<p>دستبند و آویزهای ظریف با سنگ‌های طبیعی و پرداخت نقره‌ای براق.</p>
+			<a href="<?php echo esc_url( home_url( '/shop/' ) ); ?>">مشاهدهٔ کالکشن</a>
+		</aside>
+	</section>
+
+	<section class="feature-strip" data-reveal>
+		<div class="feature-card">
+			<span>✦</span>
+			<strong>ضمانت اصالت</strong>
+			<p>محصولات با اصالت و ضمانت کیفیت معتبر.</p>
+		</div>
+		<div class="feature-card">
+			<span>⬢</span>
+			<strong>سفارشی‌سازی</strong>
+			<p>طرح‌های اختصاصی برای مناسبت‌های خاص و هدیه‌های لوکس.</p>
+		</div>
+		<div class="feature-card">
+			<span>✧</span>
+			<strong>ارسال سریع</strong>
+			<p>بسته‌بندی شیک و تحویل سریع در سراسر کشور.</p>
 		</div>
 	</section>
 

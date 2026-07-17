@@ -2,12 +2,27 @@ document.addEventListener('DOMContentLoaded', function () {
   const header = document.querySelector('.site-header-custom');
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.mobile-nav');
+  const heroSection = document.querySelector('.hero-section');
+  const heroImage = document.querySelector('.hero-image');
 
   if (toggle && nav) {
     toggle.addEventListener('click', function () {
       nav.classList.toggle('is-open');
       toggle.classList.toggle('is-open');
       document.body.classList.toggle('menu-open');
+    });
+  }
+
+  if (heroSection && heroImage) {
+    heroSection.addEventListener('mousemove', function (event) {
+      const rect = heroSection.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width - 0.5) * 10;
+      const y = ((event.clientY - rect.top) / rect.height - 0.5) * 10;
+      heroImage.style.transform = 'translate3d(' + (-x * 0.8) + 'px, ' + (-y * 0.8) + 'px, 0) scale(1.06)';
+    });
+
+    heroSection.addEventListener('mouseleave', function () {
+      heroImage.style.transform = '';
     });
   }
 

@@ -14,15 +14,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <header class="site-header-custom">
 	<div class="header-shell">
-		<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<span class="brand-mark">A</span>
-			<span class="brand-copy">
-				<strong>آونتورین</strong>
-				<small>جواهرات لوکس</small>
-			</span>
-		</a>
+		<div class="brand-group">
+			<a class="brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<span class="brand-mark">A</span>
+				<span class="brand-copy">
+					<strong>آونتورین</strong>
+					<small>جواهرات لوکس</small>
+				</span>
+			</a>
+			<span class="brand-badge">کالکشن اختصاصی | طراحی محدود</span>
+		</div>
 
 		<div class="header-actions">
+			<a class="header-link" href="<?php echo esc_url( home_url( '/shop/' ) ); ?>">فروشگاه</a>
 			<button class="icon-btn icon-btn--search" type="button" aria-label="جستجو">
 				<span>⌕</span>
 			</button>
@@ -35,6 +39,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<button class="menu-toggle" type="button" aria-label="فهرست موبایل">
 				<span></span><span></span><span></span>
 			</button>
+		</div>
+	</div>
+
+	<div class="header-toolbar">
+		<span>ارسال رایگان برای سفارش‌های بالای ۵ میلیون تومان</span>
+		<div class="toolbar-links">
+			<a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">مشاوره تخصصی</a>
+			<a href="<?php echo esc_url( home_url( '/shop/' ) ); ?>">کالکشن جدید</a>
 		</div>
 	</div>
 
