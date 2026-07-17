@@ -2,6 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
   const header = document.querySelector('.site-header-custom');
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.mobile-nav');
+  const searchBtn = document.querySelector('.icon-btn--search');
+  const searchOverlay = document.querySelector('.search-overlay');
+  const searchClose = document.querySelector('.search-overlay__close');
   const heroSection = document.querySelector('.hero-section');
   const heroImage = document.querySelector('.hero-image');
 
@@ -12,6 +15,37 @@ document.addEventListener('DOMContentLoaded', function () {
       document.body.classList.toggle('menu-open');
     });
   }
+
+  if (searchBtn && searchOverlay) {
+    searchBtn.addEventListener('click', function () {
+      searchOverlay.classList.add('is-open');
+      document.body.classList.add('menu-open');
+      searchOverlay.querySelector('input')?.focus();
+    });
+  }
+
+  if (searchClose && searchOverlay) {
+    searchClose.addEventListener('click', function () {
+      searchOverlay.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    });
+  }
+
+  if (searchOverlay) {
+    searchOverlay.addEventListener('click', function (event) {
+      if (event.target === searchOverlay) {
+        searchOverlay.classList.remove('is-open');
+        document.body.classList.remove('menu-open');
+      }
+    });
+  }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      searchOverlay?.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    }
+  });
 
   if (heroSection && heroImage) {
     heroSection.addEventListener('mousemove', function (event) {
@@ -27,6 +61,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   const revealItems = document.querySelectorAll('[data-reveal]');
+  const animatedCards = document.querySelectorAll('.category-card, .feature-card, .product-card, .curated-banner, .cta-card');
+
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -44,6 +80,19 @@ document.addEventListener('DOMContentLoaded', function () {
       item.classList.add('is-visible');
     });
   }
+
+  animatedCards.forEach(function (card) {
+    card.addEventListener('mousemove', function (event) {
+      const rect = card.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width - 0.5) * 8;
+      const y = ((event.clientY - rect.top) / rect.height - 0.5) * 8;
+      card.style.transform = 'perspective(1000px) rotateY(' + x + 'deg) rotateX(' + (-y) + 'deg) translateY(-4px)';
+    });
+
+    card.addEventListener('mouseleave', function () {
+      card.style.transform = '';
+    });
+  });
 
   if (header) {
     window.addEventListener('scroll', function () {

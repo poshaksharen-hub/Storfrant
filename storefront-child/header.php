@@ -84,4 +84,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 		}
 		?>
 	</nav>
+	<div class="search-overlay" id="search-overlay" role="dialog" aria-label="جستجو">
+		<div class="search-overlay__panel">
+			<button class="search-overlay__close" type="button" aria-label="بستن جستجو">✕</button>
+			<form class="search-form" role="search" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
+				<input type="search" name="s" placeholder="جستجو در فروشگاه و محصولات..." value="<?php echo esc_attr( get_search_query() ); ?>">
+				<button type="submit">جستجو</button>
+			</form>
+		</div>
+	</div>
 </header>
