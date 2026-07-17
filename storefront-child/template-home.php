@@ -7,9 +7,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-get_header();
+$skip_header_footer = isset( $skip_header_footer ) && $skip_header_footer;
+
+if ( ! $skip_header_footer ) {
+	get_header();
+}
 
 $hero_image = 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1400&q=80';
+$editorial_image = 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=80';
 $categories = array(
 	array( 'name' => 'انگشتر', 'slug' => 'ring', 'icon' => '◌', 'desc' => 'طراحی ظریف' ),
 	array( 'name' => 'گوشواره', 'slug' => 'earrings', 'icon' => '✦', 'desc' => 'درخشش مینیمال' ),
@@ -44,15 +49,17 @@ if ( class_exists( 'WooCommerce' ) ) {
 		<div class="hero-ambient ambient-one"></div>
 		<div class="hero-ambient ambient-two"></div>
 		<div class="hero-overlay"></div>
-		<img class="hero-image" src="<?php echo esc_url( $hero_image ); ?>" alt="جواهرات لوکس">
+		<div class="hero-visual">
+			<img class="hero-image" src="<?php echo esc_url( $hero_image ); ?>" alt="جواهرات لوکس">
+		</div>
 		<div class="hero-content">
 			<div class="hero-badges">
 				<span>مجموعهٔ جدید</span>
 				<span>طراحی محدود</span>
 			</div>
-			<p class="hero-kicker">مجموعهٔ طلایی پاییزه</p>
+			<p class="hero-kicker">کالکشن طلایی پاییزه</p>
 			<h1>ظرافتی که در هر نگاه، ارزش می‌سازد</h1>
-			<p>انگشترها، گوشواره‌ها و گردنبندهای دست‌ساز با جزئیات لوکس، رنگ‌های گرم و حس ماندگاری برای لحظه‌های خاص شما.</p>
+			<p>انگشترها، گوشواره‌ها و گردنبندهای دست‌ساز با جزئیات لوکس، پرداخت حرفه‌ای و هویت ماندگار برای لحظه‌های خاص شما.</p>
 			<div class="hero-actions">
 				<a class="btn btn-primary" href="<?php echo esc_url( home_url( '/shop/' ) ); ?>">مشاهدهٔ فروشگاه</a>
 				<a class="btn btn-secondary" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">تجربهٔ مشاوره</a>
@@ -75,17 +82,34 @@ if ( class_exists( 'WooCommerce' ) ) {
 		<div class="feature-card">
 			<span>✦</span>
 			<strong>ضمانت اصالت</strong>
-			<p>محصولات با اصالت و ضمانت کیفیت معتبر.</p>
+			<p>محصولات با اصالت، کیفیت تضمین‌شده و بسته‌بندی لوکس.</p>
 		</div>
 		<div class="feature-card">
 			<span>⬢</span>
 			<strong>سفارشی‌سازی</strong>
-			<p>طرح‌های اختصاصی برای مناسبت‌های خاص و هدیه‌های لوکس.</p>
+			<p>طرح‌های اختصاصی برای مناسبت‌های خاص و هدیه‌های ماندگار.</p>
 		</div>
 		<div class="feature-card">
 			<span>✧</span>
 			<strong>ارسال سریع</strong>
-			<p>بسته‌بندی شیک و تحویل سریع در سراسر کشور.</p>
+			<p>تحویل مطمئن، سریع و با پشتیبانی حرفه‌ای در همه‌جا.</p>
+		</div>
+	</section>
+
+	<section class="editorial-section" data-reveal>
+		<div class="editorial-copy">
+			<p class="section-tag">داستان برند</p>
+			<h2>آرتِ ظریف برای هویت و خاطرهٔ شما</h2>
+			<p>هر قطعه در آونتورین با دقت، اصالت و حس لوکس انتخاب می‌شود تا زیبایی شما را در هر لحظه، کامل‌تر و خاص‌تر نشان دهد.</p>
+			<div class="editorial-points">
+				<div><strong>نیم‌ه‌یاقوت</strong><span>سنگ‌های طبیعی و انتخاب‌شده</span></div>
+				<div><strong>پرداخت خاص</strong><span>روکش و سطح‌کاری حرفه‌ای</span></div>
+				<div><strong>بسته‌بندی لوکس</strong><span>هدیه‌ای شیک و ماندگار</span></div>
+			</div>
+		</div>
+		<div class="editorial-card">
+			<img src="<?php echo esc_url( $editorial_image ); ?>" alt="کالکشن جواهرات">
+			<div class="editorial-badge">مخصوص مناسبت‌های خاص</div>
 		</div>
 	</section>
 
@@ -205,4 +229,4 @@ if ( class_exists( 'WooCommerce' ) ) {
 	</section>
 </main>
 
-<?php get_footer(); ?>
+<?php if ( ! $skip_header_footer ) { get_footer(); } ?>

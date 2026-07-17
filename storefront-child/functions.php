@@ -40,8 +40,17 @@ function storefront_child_enqueue_assets() {
 }
 add_action( 'wp_enqueue_scripts', 'storefront_child_enqueue_assets' );
 
+function storefront_child_front_page_template( $template ) {
+	if ( is_front_page() && file_exists( get_stylesheet_directory() . '/template-home.php' ) ) {
+		return get_stylesheet_directory() . '/template-home.php';
+	}
+
+	return $template;
+}
+add_filter( 'template_include', 'storefront_child_front_page_template' );
+
 function storefront_child_prepare_homepage() {
-	if ( is_page_template( 'template-home.php' ) ) {
+	if ( is_page_template( 'template-home.php' ) || is_front_page() ) {
 		remove_all_actions( 'storefront_homepage' );
 		remove_all_actions( 'homepage' );
 		remove_all_actions( 'storefront_content_top' );
