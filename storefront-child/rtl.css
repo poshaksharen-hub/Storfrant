@@ -2,6 +2,7 @@
 By: Shayan Farhang Pazhooh
 URL: ShayanWeb.com - ShayanFP.ir
 */
+
 @font-face {
   font-family: 'Shabnam';
   font-style: normal;
@@ -35,16 +36,8 @@ URL: ShayanWeb.com - ShayanFP.ir
     url('shfonts/Shabnam/Shabnam-Light/Shabnam-Light-FD.ttf') format('truetype');
 }
 
-body, textarea, body, button, input, select, textarea, p, h1, h2, h3, h4, h5, h6, span, a, table, article, section, figure, figcaption, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, input, div, form, .rtl #wpadminbar * {
-  font-family: Shabnam;
-}
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td , .page .woocommerce-tabs .wc-tabs li a, .wc-block-grid__product-title, .woocommerce div.product .woocommerce-tabs .wc-tabs li a, h1, h2, h3, h4, h5, h6, .page .woocommerce-tabs .wc-tabs li a, .wc-block-grid__product-title, .woocommerce div.product .woocommerce-tabs .wc-tabs li a, h1, h2, h3, h4, h5, h6{
-  font-family: Shabnam;
-}
-
-h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .site-branding .site-title, .site-branding .site-description, .site-title a, .site-branding .site-title, .site-branding .site-description, .site-title a {
-  font-family: Shabnam !important;
+body, textarea, button, input, select, textarea, p, h1, h2, h3, h4, h5, h6, span, a, table, article, section, figure, figcaption, div, form {
+  font-family: Shabnam, Tahoma, sans-serif;
 }
 
 * {
@@ -56,15 +49,35 @@ body {
   text-align: right;
 }
 
-/* storefront style */
-.woocommerce-pagination .next:after{
-  content:"\f0da";
+.hero-content {
+  text-align: right;
 }
 
-.woocommerce-pagination .prev:after{
-  content:"\f0d9";
+.hero-actions,
+.product-meta,
+.footer-shell {
+  justify-content: flex-start;
 }
 
-.footer-copyright p{
+.swiper-button-next {
+  left: 16px;
+  right: auto;
+}
+
+.swiper-button-prev {
+  left: 66px;
+  right: auto;
+}
+
+.woocommerce-pagination .next:after {
+  content: "\f0da";
+}
+
+.woocommerce-pagination .prev:after {
+  content: "\f0d9";
+}
+
+.footer-copyright p {
   margin: 0;
 }
+
